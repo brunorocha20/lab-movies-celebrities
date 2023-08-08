@@ -134,7 +134,7 @@ h2 {
 }
 
 #title {
-  font-size: 1.8rem;
+  font-size: 1.3rem;
 }
 
 label {
@@ -144,23 +144,23 @@ label {
 
 input {
   width: 100%;
-  height: 3vh;
+  height: 5vh;
   margin-bottom: 3vh;
-  border-radius: 10px;
+  border-radius: 7px;
   background-color: rgb(238, 238, 238);
   font-weight: 700;
 }
 
 select {
   width: 15vw;
-  height: 20vh;
-  border-radius: 10px;
+  height: 22vh;
+  border-radius: 7px;
 }
 
 option {
   padding: 1vh;
   border: 0.5px solid black;
-  border-radius: 10px;
+  border-radius: 7px;
 }
 
 .selected {

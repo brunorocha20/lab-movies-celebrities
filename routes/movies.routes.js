@@ -5,7 +5,6 @@ const Movie = require('../models/Movie.model');
 // all your routes here
 
 //create Movies
-
 router.get('/movies/create', async (req, res, next) => {
   try {
     const allCelebs = await Celeb.find();
@@ -31,7 +30,6 @@ router.post('/movies/create', async (req, res, next) => {
 });
 
 //Read all movies and movie details
-
 router.get('/movies', async (req, res, next) => {
   try {
     const allMovies = await Movie.find();
@@ -55,7 +53,6 @@ router.get('/movies/:id', async (req, res, next) => {
 });
 
 //delete movies
-
 router.post('/movies/delete/:id', async (req, res, next) => {
   try {
     const movieId = req.params.id;
@@ -68,7 +65,6 @@ router.post('/movies/delete/:id', async (req, res, next) => {
 });
 
 //edit movies
-
 router.get('/movies/edit/:id', async (req, res, next) => {
   try {
     const movieId = req.params.id;

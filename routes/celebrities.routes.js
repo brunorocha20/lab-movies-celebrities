@@ -4,7 +4,6 @@ const Celeb = require('../models/Celebrity.model');
 // all your routes here
 
 //create celebs
-
 router.get('/celebrities/create', (req, res, next) => res.render('celebrities/new-celebrity'));
 
 router.post('/celebrities/create', async (req, res, next) => {
@@ -67,7 +66,7 @@ router.post('/celebrities/edit/:id', async (req, res, next) => {
   }
 });
 
-//delete celebs 
+//delete celebs
 router.post('/celebrities/delete/:id', async (req, res, next) => {
   const celebId = req.params.id;
   try {
